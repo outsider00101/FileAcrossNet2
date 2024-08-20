@@ -2,13 +2,14 @@
 Library for transmitting files across network.
 
 Contains:
-  
   Variables:
+    
     defaultWriteOperationsMode = "w"
     defaultReadOperationsMode = "r"
     defaultBinReadOperationsMode = "rb"
     defaultBinWriteOperationsMode = "wb"
     defaultEncodeDecode = "utf-8"
+  
   Functions:
     fileSender( self, sendTo, fileName, *encode, *readOperationMode )
     fileReciever( self, From, *fileName, *decode, *writeOperationMode )
