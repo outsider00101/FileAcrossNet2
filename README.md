@@ -11,6 +11,7 @@ Contains:
     defaultEncodeDecode = "utf-8"
   
   Functions:
+    
     fileSender( self, sendTo, fileName, *encode, *readOperationMode )
     fileReciever( self, From, *fileName, *decode, *writeOperationMode )
     binFileSender( self, sendTo, fileName, *binReadOperationMode )
